@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #282a36;
   }
   
   * {
@@ -14,32 +15,37 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2vw;
   }
   
   input {
-    width: 600px;
-    border: 1px solid #ddd;
-    height: 50px;
-    padding: 0 20px;
-    font-size: 14px;
+    width: 60vw;
+    border: 1px solid #44475a;
+    background-color: #44475a;
+    color: #ffffff;
+    height: 5vw;
+    padding: 0 2vw;
+    font-size: 1.5vw;
   }
   
   button {
-    width: 600px;
-    height: 50px;
-    font-size: 14px;
-    background: #069;
+    width: 60vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    background: #ffb86c;
     text-align: center;
-    line-height: 50px;
+    line-height: 5vw;
     font-weight: bold;
-    color: #FFF;
-    margin-top: 10px;
+    color: #fff;
+    margin-top: 1vw;
+    border: none;
   }
   
   .messages {
-    width: 600px;
-    height: 400px;
-    margin: 20px 0;
+    width: 60vw;
+    height: 40vw;
+    margin: 2vw 0;
     border: 1px solid #ddd;
-    padding: 20px;
+    color: #ddd;
+    padding: 2vw;
   }
